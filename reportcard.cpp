@@ -62,7 +62,7 @@ else
    {
        S.mark[key-1]=-1;
    
-        cout<<" Mark of the subject"<<key<<"is deleted "<<endl;
+        cout<<" Mark of the subject"<<key<<" is deleted "<<endl;
     }
 }
 
@@ -109,7 +109,7 @@ while(your_choice!=6)
     switch(your_choice){
        
         case 1:{
-            cout<<"\tPress the key accordingly to insert the mark of the particular subject"<<endl<<"\t1 for subject 1"<<endl<<"\t2 for subject 2"<<endl<<"\t3 for subject 3"<<endl<<"\t4 for subject 4"<<endl<<"\t 5 for subject 5"<<endl;
+            cout<<"\tPress the key accordingly to insert the mark of the particular subject"<<endl<<"\t1 for subject 1"<<endl<<"\t2 for subject 2"<<endl<<"\t3 for subject 3"<<endl<<"\t4 for subject 4"<<endl<<"\t5 for subject 5"<<endl;
             cout<<"Enter your choice"<<endl;
             cin>>subject_choice;
             insert_mark(subject_choice);
@@ -117,7 +117,7 @@ while(your_choice!=6)
         }
         
         case 2:{
-            cout<<"\tPress the key accordingly to delete the mark of the particular subject"<<endl<<"\t1 for subject 1"<<endl<<"\t2 for subject 2"<<endl<<"\t3 for subject 3"<<endl<<"\t4 for subject 4"<<endl<<"\t 5 for subject 5"<<endl;
+            cout<<"\tPress the key accordingly to delete the mark of the particular subject"<<endl<<"\t1 for subject 1"<<endl<<"\t2 for subject 2"<<endl<<"\t3 for subject 3"<<endl<<"\t4 for subject 4"<<endl<<"\t5 for subject 5"<<endl;
             cout<<"Enter your choice"<<endl;
             cin>>subject_choice;
             
@@ -126,7 +126,7 @@ while(your_choice!=6)
         }
         
         case 3:{
-            cout<<"\tPress the key accordingly to modify the mark of the particular subject"<<endl<<"\t1 for subject 1"<<endl<<"\t2 for subject 2"<<endl<<"\t3 for subject 3"<<endl<<"\t4 for subject 4"<<endl<<"\t 5 for subject 5"<<endl;
+            cout<<"\tPress the key accordingly to modify the mark of the particular subject"<<endl<<"\t1 for subject 1"<<endl<<"\t2 for subject 2"<<endl<<"\t3 for subject 3"<<endl<<"\t4 for subject 4"<<endl<<"\t5 for subject 5"<<endl;
             cout<<"Enter your choice"<<endl;
             cin>>subject_choice;
            
